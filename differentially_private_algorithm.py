@@ -20,7 +20,6 @@ class Logistic_Regression():
 
 
         self.x_train, self.x_val, self.y_train, self.y_val  =  train_test_split(X, y, test_size = test_split, random_state = random_state)
-        #np.append(np.ones((len(xt),1)), xt, axis=1)
     
         self.n_iteration = iteration
         self.alpha = alpha
